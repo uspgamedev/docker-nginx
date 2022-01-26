@@ -1,4 +1,4 @@
-FROM nginx:1.21.5
+FROM nginx:1.21.6
 ADD default.conf /etc/nginx/conf.d/default.template
 ADD ssl.conf /etc/nginx/shared/
 ADD proxy.conf /etc/nginx/shared/
